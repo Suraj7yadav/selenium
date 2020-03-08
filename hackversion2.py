@@ -10,7 +10,7 @@ from selenium.webdriver.firefox.options import Options
 opts = Options()
 #opts.set_headless()
 #assert opts.headless  # Operating in headless mode ----> remove this line if assertion error is thrown
-browser = Chrome('C:\\Users\\suraj\\Desktop\\usb\\Found files\\Lost partition 0\\suraj\\selenium\\chromedriver.exe')
+browser = Chrome()
 browser.get('https://quora.com')
 
 
